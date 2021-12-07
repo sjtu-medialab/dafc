@@ -30,6 +30,13 @@ The videos should be placed in a flat directory structure.
 
 Run the following command to train all the videos:
 ```Bash
-cd dafc
-python train_large_v2.py
+cd dafc/fsgan
+python train_large2.py
+```
+
+Run the following command to get some training data:
+
+```Bash
+cd dafc/video2img
+python video2img.py
 ```
